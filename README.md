@@ -14,27 +14,25 @@ A reliable RAG system must answer three questions:
 2. Does the answer cite the evidence that supports it?
 3. Did the new retrieval strategy improve quality or introduce regressions?
 
-## Core workflow
+## MVP target
+
+Build a local RAG lab that can ingest documents, compare BM25/vector/hybrid retrieval, generate cited answers, and report basic quality metrics.
 
 ```text
-Upload documents
-  ↓
-Parse and clean text
-  ↓
-Chunk with metadata
-  ↓
-Build BM25 + vector indexes
-  ↓
-Ask a question
-  ↓
-Compare vector, BM25, hybrid, and reranked results
-  ↓
-Generate answer with citations
-  ↓
-Evaluate recall, faithfulness, latency, and cost
-  ↓
-Save hard cases for regression tests
+documents -> chunks -> BM25 + vector -> hybrid retrieval -> cited answer -> eval report -> hard cases
 ```
+
+## Prioritized roadmap
+
+| Priority | Workstream | Outcome |
+|---|---|---|
+| P0 / MVP | Document ingestion and chunk preview | Retrieval quality can be debugged before embeddings |
+| P0 / MVP | Vector and BM25 retrieval | Two strong baselines are visible |
+| P0 / MVP | Hybrid retrieval and rerank | The project demonstrates real retrieval tuning |
+| P1 | Evidence panel and citation validation | Answers become inspectable and source-linked |
+| P1 | Eval dataset and metrics | Quality can be measured after each retrieval change |
+| P1 | Hard-case board | Failures become regression assets |
+| P2 | Interview notes and demo | The project is easy to explain to hiring teams |
 
 ## Core features
 
