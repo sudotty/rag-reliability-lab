@@ -57,6 +57,8 @@ The first useful demo should let a reviewer understand why an answer was produce
 ## Repository documents
 
 - [Business Context](docs/business-context.md)
+- [Architecture](docs/architecture.md)
+- [Data Model](docs/data-model.md)
 - [Roadmap](docs/roadmap.md)
 - [Showcase Plan](docs/showcase-plan.md)
 - [Design Gallery](docs/design-gallery.md)
