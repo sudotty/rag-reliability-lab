@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f7f8fa"/>
+  <rect x="60" y="60" width="1080" height="600" rx="24" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="96" y="120" font-family="Arial" font-size="34" font-weight="700" fill="#24292f">RAG Reliability Lab</text>
+  <text x="96" y="160" font-family="Arial" font-size="18" fill="#57606a">Documents → Chunks → Search Comparison → Answer Sources → Metrics → Saved Cases</text>
+  <g font-family="Arial" font-size="18" fill="#24292f">
+    <rect x="96" y="220" width="160" height="92" rx="14" fill="#f6f8fa" stroke="#d0d7de"/><text x="126" y="272">Documents</text>
+    <rect x="296" y="220" width="160" height="92" rx="14" fill="#f6f8fa" stroke="#d0d7de"/><text x="348" y="272">Chunks</text>
+    <rect x="496" y="220" width="180" height="92" rx="14" fill="#f6f8fa" stroke="#d0d7de"/><text x="525" y="272">Comparison</text>
+    <rect x="716" y="220" width="180" height="92" rx="14" fill="#f6f8fa" stroke="#d0d7de"/><text x="748" y="272">Sources</text>
+    <rect x="936" y="220" width="140" height="92" rx="14" fill="#f6f8fa" stroke="#d0d7de"/><text x="970" y="272">Metrics</text>
+  </g>
+  <text x="96" y="410" font-family="Arial" font-size="22" font-weight="700" fill="#24292f">Showcase value</text>
+  <text x="96" y="450" font-family="Arial" font-size="18" fill="#57606a">Make retrieval quality visible before an answer is trusted.</text>
+  <text x="96" y="500" font-family="Arial" font-size="18" fill="#57606a">Strong demo point: side-by-side search results and cited evidence.</text>
+</svg>
